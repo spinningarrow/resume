@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Resume</title>
+		<style>
+body { font-family: sans-serif; max-width: 720px;
+	line-height: 1.2;
+}
+body {
+	font-family: source serif pro;
+	margin: 2rem;
+}
+h1, h2, h3, h4 {
+	font-family: source sans pro;
+}
+h1, h2 {
+	font-family: league gothic;
+	color: #444;
+	text-transform: uppercase;
+}
+h3, h4 { margin: 0;
+	line-height: 1.4;
+	font-size: 1rem;
+}
+h3 {
+	float: left;
+	margin-right: 0.2rem;
+}
+h4 {
+	font-weight: normal;
+	line-height: 1.4;
+		color: #999;
+}
+p, ul {
+	clear: both;
+}
+ul {
+	padding-left: 1.2rem;
+		list-style-type: circle;
+}
+		</style>
+	</head>
+
+	<body>
+		$for(include-before)$
+		$include-before$
+		$endfor$
+		$if(title)$
+		<div id="$idprefix$header">
+			<h1 class="title">$title$</h1>
+			$if(subtitle)$
+			<h1 class="subtitle">$subtitle$</h1>
+			$endif$
+			$for(author)$
+			<h2 class="author">$author$</h2>
+			$endfor$
+			$if(date)$
+			<h3 class="date">$date$</h3>
+			$endif$
+		</div>
+		$endif$
+		$if(toc)$
+		<div id="$idprefix$TOC">
+			$toc$
+		</div>
+		$endif$
+		$body$
+		$for(include-after)$
+		$include-after$
+		$endfor$
+	</body>
+</html>
