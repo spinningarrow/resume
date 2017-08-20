@@ -73,6 +73,7 @@ ul {
 }
 
 ul.toolbar {
+	background: white;
 	border: 1px dashed #ccc;
 	font-family: source code pro, monospace;
 	font-size: 0.8rem;
@@ -96,6 +97,24 @@ ul.toolbar a {
 
 ul.toolbar li:last-child a {
 	border: 0;
+}
+
+@media only screen and (max-width: 800px) {
+	body {
+		column-count: 1;
+	}
+
+	#education {
+		break-before: auto;
+	}
+
+	h1 + ul li {
+		display: block;
+	}
+
+	h1 + ul li:not(:last-child)::after {
+		content: '';
+	}
 }
 
 @media print {
