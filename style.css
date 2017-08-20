@@ -1,9 +1,11 @@
 body {
+	column-count: 2;
+	column-gap: 2rem;
 	font-family: sans-serif;
 	font-family: source serif pro;
 	line-height: 1.2;
 	margin: 2rem;
-	max-width: 720px;
+	max-width: 960px;
 }
 
 a {
@@ -39,6 +41,14 @@ h4 {
 
 p, ul {
 	clear: both;
+}
+
+h1, h1 + ul {
+	column-span: all;
+}
+
+#education {
+	break-before: column;
 }
 
 h1 + ul {
