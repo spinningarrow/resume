@@ -40,3 +40,35 @@ ul {
 	list-style-type: circle;
 	padding-left: 1.2rem;
 }
+
+ul.toolbar {
+	border: 1px dashed #ccc;
+	font-family: monospace;
+	list-style: none;
+	margin: 0.5rem 0.5rem 0 0;
+	padding: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+}
+
+ul.toolbar li {
+	float: left;
+}
+
+ul.toolbar a {
+	border-right: 1px dashed #ccc;
+	display: block;
+	padding: 0.5rem;
+	text-decoration: none;
+}
+
+ul.toolbar li:last-child a {
+	border: 0;
+}
+
+@media print {
+	.toolbar {
+		display: none;
+	}
+}
