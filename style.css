@@ -6,6 +6,11 @@ body {
 	max-width: 720px;
 }
 
+a {
+	color: coral;
+	text-decoration: none;
+}
+
 h1, h2, h3, h4 {
 	font-family: source sans pro;
 }
@@ -36,6 +41,22 @@ p, ul {
 	clear: both;
 }
 
+h1 + ul {
+	font-family: source code pro, monospace;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+h1 + ul li {
+	display: inline-block;
+}
+
+h1 + ul li:not(:last-child)::after {
+	color: #ccc;
+	content: ' |';
+}
+
 ul {
 	list-style-type: circle;
 	padding-left: 1.2rem;
@@ -43,7 +64,8 @@ ul {
 
 ul.toolbar {
 	border: 1px dashed #ccc;
-	font-family: monospace;
+	font-family: source code pro, monospace;
+	font-size: 0.8rem;
 	list-style: none;
 	margin: 0.5rem 0.5rem 0 0;
 	padding: 0;
@@ -60,7 +82,6 @@ ul.toolbar a {
 	border-right: 1px dashed #ccc;
 	display: block;
 	padding: 0.5rem;
-	text-decoration: none;
 }
 
 ul.toolbar li:last-child a {

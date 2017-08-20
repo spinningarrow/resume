@@ -1,7 +1,9 @@
 Sahil Bajaj
 ===========
 
-sahil29@gmail.com
+- email [resume@sahil.me][]
+- website [sahil.me][]
+- github [\@spinningarrow][github]
 
 Experience
 ----------
@@ -133,3 +135,7 @@ Interests
 - Guitar
 - Hiking
 - Ping pong
+
+[resume@sahil.me]: mailto:resume@sahil.me
+[sahil.me]: //sahil.me
+[github]: https://github.com/spinningarrow
