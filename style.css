@@ -1,8 +1,7 @@
 body {
 	column-count: 2;
 	column-gap: 2rem;
-	font-family: sans-serif;
-	font-family: source serif pro;
+	font-family: source serif pro, source-serif-pro, serif;
 	line-height: 1.2;
 	margin: 2rem;
 	max-width: 960px;
@@ -14,12 +13,12 @@ a {
 }
 
 h1, h2, h3, h4 {
-	font-family: source sans pro;
+	font-family: source sans pro, source-sans-pro, sans-serif;
 }
 
 h1, h2 {
 	color: #444;
-	font-family: league gothic;
+	font-family: league gothic, league-gothic, sans-serif;
 	text-transform: uppercase;
 }
 
@@ -52,7 +51,7 @@ h1, h1 + ul {
 }
 
 h1 + ul {
-	font-family: source code pro, monospace;
+	font-family: source code pro, source-code-pro, monospace;
 	list-style: none;
 	padding: 0;
 }
@@ -74,7 +73,7 @@ ul {
 ul.toolbar {
 	background: white;
 	border: 1px dashed #ccc;
-	font-family: source code pro, monospace;
+	font-family: source code pro, source-code-pro, monospace;
 	font-size: 0.8rem;
 	list-style: none;
 	margin: 0.5rem 0.5rem 0 0;
