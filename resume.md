@@ -1,9 +1,12 @@
+---
+---
+
 Sahil Bajaj
 ===========
 
 - email [resume@sahil.me][]
 - website [sahil.me][]
-- github [\@spinningarrow][github]
+- github [@spinningarrow][github]
 
 Experience
 ----------
