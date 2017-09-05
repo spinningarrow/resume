@@ -4,7 +4,7 @@
 Sahil Bajaj
 ===========
 
-- email [resume@sahil.me][]
+- email <resume@sahil.me>
 - website [sahil.me][]
 - github [@spinningarrow][github]
 
@@ -139,6 +139,5 @@ Interests
 - Hiking
 - Ping pong
 
-[resume@sahil.me]: mailto:resume@sahil.me
 [sahil.me]: //sahil.me
 [github]: https://github.com/spinningarrow
