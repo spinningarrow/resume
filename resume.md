@@ -14,11 +14,18 @@ Experience
 ### Software Developer, ThoughtWorks Singapore
 #### March 2016 – present
 
-- Worked on a single-page application for a multinational bank using AngularJS,
-  Jasmine, and Cordova
-- Worked on the backend of a microservices-based rewards platform using Java,
-  gRPC, Ruby on Rails, Go, and Chef
-- Working on an analytics platform using Python and React
+Working as a developer and part-time lead on several client projects, both on
+the front- and back-end
+
+- A hybrid mobile banking app, built with AngularJS, Bootstrap, Jasmine,
+  and Cordova
+- A rewards platform for a unicorn startup, following a services-oriented
+  architecture using Java, gRPC, Kafka and Postgres, with some services
+  written in Ruby on Rails and Go
+- An intelligent analytics platform powered by React and Recharts on the
+  front-end, Python (Django, Pandas, and spaCy) on the backend, and Ansible
+  for IT automation
+- A point of sale mobile application using React Native
 
 ### Instructor, General Assembly Singapore
 #### July 2016 – October 2016
@@ -26,23 +33,23 @@ Experience
 - Taught the Front-end Web Development part-time course to a group of 12
   students
 - Responsible for developing and refining the curriculum, assignments and class
-  activities 
+  activities
 
-### Web Developer, Autodesk Asia Pte Ltd (ASRD)
+### Web Developer, Autodesk Singapore
 #### June 2014 – March 2016
 
 - Front-end web developer for the PLM360 single-page web application using
   AngularJS, ES6 JavaScript, SASS, Bootstrap, Angular Material Design for
-styling and UI components, and Mocha and Protractor for unit and view tests
-respectively
+  styling and UI components, and Mocha and Protractor for unit and view tests
+  respectively
 - Developed an internal tool called ‘Kudos’ for giving quick feedback to
   teammates, using Deployd (MongoDB + Socket.io), React and D3 for the
 front-end;  it won a prize in the Autodesk DLS Hackathon 2015
 - Organised several Git workshops at the team and site levels  to introduce
-  people to Git and use it more effectively
+  people to using Git more effectively
 - Awards: Autobucks Award (February 2015), DLS Bravo Award (July 2015)
 
-### Software Engineering Intern, Roam7 Pte Ltd
+### Software Engineering Intern, Roam7
 #### June 2012 – December 2012
 
 - Full-stack web development of the Roam7.com travel app, contributing over 360
@@ -53,25 +60,17 @@ front-end;  it won a prize in the Autodesk DLS Hackathon 2015
 - Unit testing in Jasmine and functional testing using Webdriver
 - Design work using Inkscape and GIMP
 
-### Web Developer, NTU Solutions
-#### Dec 2010 – Jan 2011
+### Freelance Web Developer
+#### 2010 - 2011
 
-- Created NTU Electives (ntuelectives.com), a website for NTU students to review courses offered in NTU using CodeIgniter (PHP) and jQuery
-
-### Web Developer, Fresh Lime Media
-#### March 2010 – May 2010
-
-- Transformed the 'Publications' section of the Navdanya (navdanya.org) website
+- **NTUElectives**: Created ntuelectives.com, a website for NTU students to
+  review courses offered in NTU using CodeIgniter (PHP) and jQuery
+- With a professor in the **Nanyang Business School**: developed an online survey
+  using PHP and the GD imaging library, and did some web scraping using curl,
+  JavaScript and Webdriver.IO
+- With **Fresh Lime Media**: revamped the 'Publications' section of navdanya.org
   using PHP and jQuery, and managed the main site and blog using Joomla and
-Wordpress
-- Wrote a jQuery-based module for Bharti Infratel
-
-### Work Study
-#### March 2010 onwards
-
-- Worked as a Web Developer for a professor in the Nanyang Business School
-- Developed an online survey using PHP and the GD imaging library
-- Did some web crawling and scraping using curl, JavaScript and Webdriver.IO
+  Wordpress
 
 Education
 ---------
@@ -95,7 +94,7 @@ client
 ### Yelpy! (team of 4)
 
 - Developed a tool using Django and Solr to offer Yelp users a more
-  personalised experience 
+  personalised experience
 
 ### Karang Guni (team of 5)
 
@@ -137,7 +136,7 @@ Interests
 - Photography
 - Guitar
 - Hiking
-- Ping pong
+- Table tennis
 
 [sahil.me]: //sahil.me
 [github]: https://github.com/spinningarrow
