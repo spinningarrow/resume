@@ -1,5 +1,4 @@
 exclude: ['CNAME', 'shell.nix']
-theme: []
 defaults:
     -
         scope:
