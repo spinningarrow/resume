@@ -11,11 +11,11 @@ Sahil Bajaj
 Experience
 ----------
 
-### Software Developer, ThoughtWorks Singapore
+### Software Developer, ThoughtWorks Singapore and ThoughtWorks Germany
 #### March 2016 – present
 
-Working as a developer and part-time lead on several client projects, both on
-the front- and back-end
+Working as a tech lead, software developer, and consultant on full-stack web
+projects:
 
 - A hybrid mobile banking app, built with AngularJS, Bootstrap, Jasmine,
   and Cordova
@@ -26,6 +26,13 @@ the front- and back-end
   front-end, Python (Django, Pandas, and spaCy) on the backend, and Ansible
   for IT automation
 - A point of sale mobile application using React Native
+- A financial insights application for relationship managers using AngularJS, React, Elasticsearch, and Spark
+- A fleet management solution comprising of microfrontend applications, a small data ingestion pipeline, and multiple backend services using React, Go, AWS, and Concourse CI
+- A customer services platform using a microfrontends approach to decouple the release processes of multiple teams, using Vue.js, TypeScript, and GraphQL
+- An online sales calculator application built using React and TypeScript
+- A service booking platform built with Angular and Kotlin and hosted on AWS ECS
+
+Aside from these, I was also an instructor for ThoughtWorks JumpStart - a 12-weeks full-time coaching and mentoring program for individuals who want to build and develop specialised skills in software development. This involved developing the curriculum and teaching classes on full-stack web development and agile software engineering.
 
 ### Instructor, General Assembly Singapore
 #### July 2016 – October 2016
